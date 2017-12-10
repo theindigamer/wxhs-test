@@ -1,6 +1,6 @@
 [submodule "reactive-banana"]
 	path = reactive-banana
-	url = https://github.com/HeinrichApfelmus/reactive-banana.git
+	url = https://github.com/theindigamer/reactive-banana.git
 [submodule "wxHaskell"]
 	path = wxHaskell
-	url = https://github.com/wxHaskell/wxHaskell
+	url = https://github.com/theindigamer/wxHaskell
