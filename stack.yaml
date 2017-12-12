@@ -37,17 +37,16 @@ resolver: nightly-2017-11-20
 # will not be run. This is useful for tweaking upstream packages.
 packages:
 - .
+# Dependency packages to be pulled from upstream that are not in the resolver
+# (e.g., acme-missiles-0.3)
+extra-deps:
+- cabal-macosx-0.2.3.4
+- reactive-banana-1.1.0.1
 - wxHaskell/wx
 - wxHaskell/wxc
 - wxHaskell/wxdirect
 - wxHaskell/wxcore
 - reactive-banana/reactive-banana-wx
-# Dependency packages to be pulled from upstream that are not in the resolver
-# (e.g., acme-missiles-0.3)
-extra-deps:
-  - cabal-macosx-0.2.4.1
-  - reactive-banana-1.1.0.1
-
 # Override default flag values for local packages and extra-deps
 flags: {}
 
