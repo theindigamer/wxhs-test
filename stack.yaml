@@ -40,7 +40,7 @@ packages:
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
 extra-deps:
-- cabal-macosx-0.2.3.4
+- cabal-macosx-0.2.4.1
 - reactive-banana-1.1.0.1
 - wxHaskell/wx
 - wxHaskell/wxc
